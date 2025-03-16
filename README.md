@@ -56,7 +56,7 @@ python run_experiments.py --exp 1
 - **`ConformalModelLogits(nn.Module)`**: Optimized version using precomputed logits.
 
 #### **Main Functions**
-- **`conformal_calibration()`**: Computes the threshold \(Q_{hat}\) for valid prediction sets.
+- **`conformal_calibration()`**: Computes the threshold \(q̂\) for valid prediction sets.
 - **`platt()`**: Implements Platt scaling for temperature adjustment.
 - **`gcq()`**: Determines class inclusion in prediction sets.
 - **`pick_parameters()`**: Automatically selects \( k_{reg} \) and \( \lambda \).
