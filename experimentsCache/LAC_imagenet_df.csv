@@ -1,0 +1,2 @@
+,Model,Predictor,Top1,Top5,alpha,Coverage,Size
+0,ResNet152,LAC,0.898,0,0.1,0.898,2.066
