@@ -1,0 +1,26 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore dataset or large files
+imagenet/
+imagenetV2/
+data/
+*.csv
+*.h5
+
+# Ignore cache and dependencies
+.cache/
+node_modules/
