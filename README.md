@@ -5,7 +5,7 @@ This repository provides an implementation of **conformal prediction** for deep 
 ## 📌 Features
 - **Conformal Prediction Wrapper**: `ConformalModel` class modifies neural networks to output **prediction sets**.
 - **Platt Scaling**: Implements **temperature scaling** to calibrate model confidence scores.
-- **Adaptive Regularization**: Automatically tunes parameters \( k_{reg} \) and \( \lambda \) for optimal prediction set sizes.
+- **Adaptive Regularization**: Automatically tunes parameters \( k_reg \) and \( lambda \) for optimal prediction set sizes.
 - **ImageNet & ImageNet-V2 Support**: Precomputed logits enable efficient evaluation on large-scale datasets.
 - **GPU Acceleration**: Compatible with CUDA-enabled GPUs for high-speed inference.
 - **Multiple Experiments**: Evaluate coverage, set size distribution, and adaptiveness across datasets.
